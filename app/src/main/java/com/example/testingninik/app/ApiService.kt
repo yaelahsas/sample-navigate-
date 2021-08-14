@@ -62,6 +62,15 @@ interface ApiService {
         @Part("jumlah_buku") jumlah_buku: RequestBody?
     ): Call<ResponModel>
 
+    @Multipart
+    @POST("donasi_ebook")
+    fun donasi_ebook(
+
+        @Part("file_ebook\"; filename=\"myfile.pdf\" ") file_ebook: RequestBody?,
+        @Part("id_donasi") id_donasi: RequestBody?,
+        @Part("judul_buku") judul_buku: RequestBody?
+    ): Call<ResponModel>
+
 
 //    @Multipart
 //    @POST("/api/Accounts/editaccount")

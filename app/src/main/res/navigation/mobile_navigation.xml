@@ -18,8 +18,8 @@
         tools:layout="@layout/activity_pengajuan_donasi" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.testingninik.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_ebook"
+        android:name="com.example.testingninik.EbookDonasi"
+        android:label="Donasi ebook"
+        tools:layout="@layout/fragment_ebook_donasi" />
 </navigation>

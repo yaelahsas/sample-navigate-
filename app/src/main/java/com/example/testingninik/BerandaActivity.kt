@@ -30,7 +30,7 @@ class BerandaActivity : AppCompatActivity() {
         // menu should be considered as top level destinations.
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_donasiBuku, R.id.nav_slideshow
+                R.id.nav_home, R.id.nav_donasiBuku, R.id.nav_donasiBuku
             ), drawerLayout
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
